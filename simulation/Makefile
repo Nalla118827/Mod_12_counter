@@ -5,7 +5,7 @@
 
 SIMULATOR = VCS
 FSDB_PATH=/home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64
-RTL= ../rtl/counter_RTL.sv
+RTL= ../RTL/counter_RTL.sv
 work= work #library name
 SVTB1= ../env_lib/counter_if.sv
 INC = +incdir+../env +incdir+../env_lib +incdir+../test
